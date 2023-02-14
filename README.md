@@ -1,16 +1,17 @@
 # General Description: 
 This repository  consists of the source codes of the "I/O cache test & analysis framework" proposed in the paper "Re-architecting I/O Caches for Emerging Fast Storage Devices", appearing in ASPLOS'23.
 
-#Hardware Dependencies:
+# Hardware Dependencies:
 Using the same system hardware as we specified in the paper would result in similar output to what we showed. However, using any other server configuration with minimal hardware requirements makes it still possible to run our scripts, but would naturally lead to different absolute performance, and system resource utilization numbers. 
-##Recommended Configuration
+
+## Recommended Configuration
  A storage server with dual-socket Intel Xeon E5-2620 v4 8-core CPUs (total 32 logical cores), at least 100GB of DRAM, 9x Samsung SM863a 1.9TB SSDs setup as RAID-5(8+1) using MegaRAID 9361. We set up a 6TB partition from this array, and use it as back-end storage.
 
-##Minimal configuration:
+## Minimal configuration:
 A server with at least an 8-core CPU (total 16 logical cores), one server-grade SSD as the backend (in addition to the OS disk), and 32GB DRAM, from which 10GB are usable as the I/O cache device. Note that this configuration leads to different absolute performance numbers compared to our paper results, and thus is only suitable to check the ability to run our (sample) scripts. 
 
 
-#Software Dependencies:
+# Software Dependencies:
 + FIO 3.8
 + OpenCAS 21.3
 + EnhanceIO
