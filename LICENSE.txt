@@ -1,0 +1,14 @@
+###########    LICENSE/USAGE NOTICE 
+
+This piece of software can be used free of charge for both academic and commercial purposes, however, a couple of considerations exist:
+(1) This program is distributed in the hope that it would be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+(2) If you modify the code, the original list of authors and the name of "HPDS Research" and "DSN Lab at Sharif University of Technology" must accompany your code (either as commments in your code, or a separate license file).
+
+(3) If you use this code, please cite the following paper:
+Authors: M. Ajdari, P. Peykani Sani, A. Moradi, M. Khanalizadeh Imani, A. H. Bazkhanei, H. Asadi
+Title: "Re-architecting I/O Caches for Emerging Fast Storage Devices"
+ Venue: ASPLOS 2023
+ 
+(4) You may modify the code and use it for your system, but we would appreciate it if you send us the modified copy so we can merge it with our code. [We would add your modified code, and your name to that modified copy.])
+
