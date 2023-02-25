@@ -1,0 +1,24 @@
+[randomread]
+
+readwrite=randread
+blocksize=4k
+direct=1
+ioengine=libaio
+
+iodepth=16
+numjobs=16
+
+#filename=/dev/....
+
+norandommap
+group_reporting=1
+lat_percentiles=1
+
+offset=0
+size=55g
+io_size=35g
+random_distribution=random
+
+##for logging##
+log_avg_msec=10000
+#write_iops_log=./fio_reports/rand_read_100%ahit_16j_q4/rr_16_report.log
