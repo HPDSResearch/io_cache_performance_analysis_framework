@@ -19,3 +19,15 @@ A server with at least an 8-core CPU (total 16 logical cores), one server-grade 
 
 Running the experiments require the benchmarking tool FIO (version 3.8), CentOS 7 with kernel updated to 5.4.52, OpenCAS version 21.3, Lanconnected branch of EnhanceIO, and DM-Cache integrated in CentOS 7.
 You need to ensure that both python version 2.7.5 (for EnhanceIO), and python version 3.6.8 (for OpenCAS), in addition to libaio (for FIO) are installed in their system.
+
+# LICENSING and USAGE
+Please refer to the LICENSE file. A very brief description is as follows:
+This piece of software can be used free of charge for both academic and commercial purposes.
+
+If you use this code, please cite the following paper:
+Authors: M. Ajdari, P. Peykani Sani, A. Moradi, M. Khanalizadeh Imani, A. H. Bazkhanei, H. Asadi
+Title: "Re-architecting I/O Caches for Emerging Fast Storage Devices"
+ Venue: ASPLOS 2023
+
+
+
