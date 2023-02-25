@@ -1,0 +1,115 @@
+Wed Feb  1 21:38:16 IRST 2023 :tpcc_32j test directory created-Template copied-jobfile copied
+Successfully added cache instance 1
+Successfully added core 1 to cache instance 1
+type    id   disk        status    write policy   device
+cache   1    /dev/ram1   Running   wb             -
+└core   1    /dev/sdk    Active    -              /dev/cas1-1
+NAME            MAJ:MIN  RM   SIZE RO TYPE MOUNTPOINT
+sdf               8:80    0   7.3T  0 disk 
+sdo               8:224   0   7.3T  0 disk 
+sdd               8:48    0   7.3T  0 disk 
+sdm               8:192   0   7.3T  0 disk 
+sdb               8:16    0   1.8T  0 disk 
+├─sdb2            8:18    0     1G  0 part 
+├─sdb3            8:19    0   1.8T  0 part 
+│ ├─centos-home 252:1     0   1.7T  0 lvm  
+│ ├─centos-root 252:2     0    50G  0 lvm  
+│ └─centos-swap 252:0     0     4G  0 lvm  
+└─sdb1            8:17    0   200M  0 part 
+sdk               8:160   0   1.8T  0 disk 
+└─cas1-1        253:4608  0   1.8T  0 disk 
+sdi               8:128   0   7.3T  0 disk 
+sdq              65:0     0  29.1T  0 disk 
+sdg               8:96    0   7.3T  0 disk 
+sde               8:64    0   7.3T  0 disk 
+sdn               8:208   0   7.3T  0 disk 
+sdc               8:32    0   7.3T  0 disk 
+sdl               8:176   0   7.3T  0 disk 
+sda               8:0     0   1.8T  0 disk 
+sdj               8:144   0   1.8T  0 disk /root/room
+sdr              65:16    0   1.8T  0 disk 
+sdh               8:112   0   7.3T  0 disk 
+sdp               8:240   0   238G  0 disk 
+├─sdp4            8:244   0 101.5G  0 part /var
+├─sdp2            8:242   0     2G  0 part /boot
+├─sdp5            8:245   0    32G  0 part [SWAP]
+├─sdp3            8:243   0 101.5G  0 part /
+└─sdp1            8:241   0     1M  0 part 
+Create cache done!
+Wed Feb  1 21:38:19 IRST 2023 :tpcc_32j: cache created
+Wed Feb  1 21:43:32 IRST 2023 :msxchg_3j test directory created-Template copied-jobfile copied
+type    id   disk        status    write policy   device
+cache   1    /dev/ram1   Running   wb             -
+└core   1    /dev/sdk    Active    -              /dev/cas1-1
+NAME            MAJ:MIN  RM   SIZE RO TYPE MOUNTPOINT
+sdf               8:80    0   7.3T  0 disk 
+sdo               8:224   0   7.3T  0 disk 
+sdd               8:48    0   7.3T  0 disk 
+sdm               8:192   0   7.3T  0 disk 
+sdb               8:16    0   1.8T  0 disk 
+├─sdb2            8:18    0     1G  0 part 
+├─sdb3            8:19    0   1.8T  0 part 
+│ ├─centos-home 252:1     0   1.7T  0 lvm  
+│ ├─centos-root 252:2     0    50G  0 lvm  
+│ └─centos-swap 252:0     0     4G  0 lvm  
+└─sdb1            8:17    0   200M  0 part 
+sdk               8:160   0   1.8T  0 disk 
+└─cas1-1        253:4608  0   1.8T  0 disk 
+sdi               8:128   0   7.3T  0 disk 
+sdq              65:0     0  29.1T  0 disk 
+sdg               8:96    0   7.3T  0 disk 
+sde               8:64    0   7.3T  0 disk 
+sdn               8:208   0   7.3T  0 disk 
+sdc               8:32    0   7.3T  0 disk 
+sdl               8:176   0   7.3T  0 disk 
+sda               8:0     0   1.8T  0 disk 
+sdj               8:144   0   1.8T  0 disk /root/room
+sdr              65:16    0   1.8T  0 disk 
+sdh               8:112   0   7.3T  0 disk 
+sdp               8:240   0   238G  0 disk 
+├─sdp4            8:244   0 101.5G  0 part /var
+├─sdp2            8:242   0     2G  0 part /boot
+├─sdp5            8:245   0    32G  0 part [SWAP]
+├─sdp3            8:243   0 101.5G  0 part /
+└─sdp1            8:241   0     1M  0 part 
+Create cache done!
+Wed Feb  1 21:43:35 IRST 2023 :msxchg_3j: cache created
+Wed Feb  1 21:46:18 IRST 2023 :msxchg_3j test directory created-Template copied-jobfile copied
+Successfully added cache instance 1
+Successfully added core 1 to cache instance 1
+type    id   disk        status    write policy   device
+cache   1    /dev/ram1   Running   wb             -
+└core   1    /dev/sdk    Active    -              /dev/cas1-1
+NAME            MAJ:MIN  RM   SIZE RO TYPE MOUNTPOINT
+sdf               8:80    0   7.3T  0 disk 
+sdo               8:224   0   7.3T  0 disk 
+sdd               8:48    0   7.3T  0 disk 
+sdm               8:192   0   7.3T  0 disk 
+sdb               8:16    0   1.8T  0 disk 
+├─sdb2            8:18    0     1G  0 part 
+├─sdb3            8:19    0   1.8T  0 part 
+│ ├─centos-home 252:1     0   1.7T  0 lvm  
+│ ├─centos-root 252:2     0    50G  0 lvm  
+│ └─centos-swap 252:0     0     4G  0 lvm  
+└─sdb1            8:17    0   200M  0 part 
+sdk               8:160   0   1.8T  0 disk 
+└─cas1-1        253:4864  0   1.8T  0 disk 
+sdi               8:128   0   7.3T  0 disk 
+sdq              65:0     0  29.1T  0 disk 
+sdg               8:96    0   7.3T  0 disk 
+sde               8:64    0   7.3T  0 disk 
+sdn               8:208   0   7.3T  0 disk 
+sdc               8:32    0   7.3T  0 disk 
+sdl               8:176   0   7.3T  0 disk 
+sda               8:0     0   1.8T  0 disk 
+sdj               8:144   0   1.8T  0 disk /root/room
+sdr              65:16    0   1.8T  0 disk 
+sdh               8:112   0   7.3T  0 disk 
+sdp               8:240   0   238G  0 disk 
+├─sdp4            8:244   0 101.5G  0 part /var
+├─sdp2            8:242   0     2G  0 part /boot
+├─sdp5            8:245   0    32G  0 part [SWAP]
+├─sdp3            8:243   0 101.5G  0 part /
+└─sdp1            8:241   0     1M  0 part 
+Create cache done!
+Wed Feb  1 21:46:29 IRST 2023 :msxchg_3j: cache created
