@@ -26,9 +26,9 @@ Please refer to the LICENSE file. A very brief description is as follows:
 This piece of software can be used free of charge for both academic and commercial purposes.
 
 If you use this code, please cite the following paper:
-Authors: M. Ajdari, P. Peykani Sani, A. Moradi, M. Khanalizadeh Imani, A. H. Bazkhanei, H. Asadi
-Title: "Re-architecting I/O Caches for Emerging Fast Storage Devices"
- Venue: ASPLOS 2023
+
+M. Ajdari, P. Peykani Sani, A. Moradi, M. Khanalizadeh Imani, A. H. Bazkhanei, H. Asadi, "Re-architecting I/O Caches for Emerging Fast Storage Devices"
+, ASPLOS 2023
 
 
 
