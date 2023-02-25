@@ -22,6 +22,7 @@ You need to ensure that both python version 2.7.5 (for EnhanceIO), and python ve
 
 # LICENSING and USAGE
 Please refer to the LICENSE file. A very brief description is as follows:
+
 This piece of software can be used free of charge for both academic and commercial purposes.
 
 If you use this code, please cite the following paper:
