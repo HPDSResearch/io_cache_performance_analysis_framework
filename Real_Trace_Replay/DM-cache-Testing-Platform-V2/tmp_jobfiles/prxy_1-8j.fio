@@ -1,0 +1,31 @@
+[global]
+
+direct=1
+ioengine=libaio
+iodepth=16
+numjobs=1
+replay_no_stall=1
+
+[TEST1]
+read_iolog=/root/Synthetic_TEST_SCENARIO/test_scenarios/NVMe_PROJECT/realTrace/Cache-Testing-Platform_Real-workloads/multiThreded/MSRC1 multi thread/8_jobs/prxy_1/out0
+
+[TEST2]
+read_iolog=/root/Synthetic_TEST_SCENARIO/test_scenarios/NVMe_PROJECT/realTrace/Cache-Testing-Platform_Real-workloads/multiThreded/MSRC1 multi thread/8_jobs/prxy_1/out1
+
+[TEST3]
+read_iolog=/root/Synthetic_TEST_SCENARIO/test_scenarios/NVMe_PROJECT/realTrace/Cache-Testing-Platform_Real-workloads/multiThreded/MSRC1 multi thread/8_jobs/prxy_1/out2
+
+[TEST4]
+read_iolog=/root/Synthetic_TEST_SCENARIO/test_scenarios/NVMe_PROJECT/realTrace/Cache-Testing-Platform_Real-workloads/multiThreded/MSRC1 multi thread/8_jobs/prxy_1/out3
+
+[TEST5]
+read_iolog=/root/Synthetic_TEST_SCENARIO/test_scenarios/NVMe_PROJECT/realTrace/Cache-Testing-Platform_Real-workloads/multiThreded/MSRC1 multi thread/8_jobs/prxy_1/out4
+
+[TEST6]
+read_iolog=/root/Synthetic_TEST_SCENARIO/test_scenarios/NVMe_PROJECT/realTrace/Cache-Testing-Platform_Real-workloads/multiThreded/MSRC1 multi thread/8_jobs/prxy_1/out5
+
+[TEST7]
+read_iolog=/root/Synthetic_TEST_SCENARIO/test_scenarios/NVMe_PROJECT/realTrace/Cache-Testing-Platform_Real-workloads/multiThreded/MSRC1 multi thread/8_jobs/prxy_1/out6
+
+[TEST8]
+read_iolog=/root/Synthetic_TEST_SCENARIO/test_scenarios/NVMe_PROJECT/realTrace/Cache-Testing-Platform_Real-workloads/multiThreded/MSRC1 multi thread/8_jobs/prxy_1/out7
