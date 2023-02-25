@@ -1,0 +1,23 @@
+[randomread]
+
+readwrite=randread
+blocksize=4k
+direct=1
+ioengine=libaio
+
+iodepth=16
+numjobs=16
+
+#filename=/dev/....
+
+norandommap
+#randrepeat=0
+group_reporting
+lat_percentiles=1
+
+##for ~100% hit#
+offset=0
+#handy
+size=40g 
+random_distribution=random
+
