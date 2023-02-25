@@ -1,0 +1,25 @@
+[randomread]
+
+readwrite=randread
+blocksize=4k
+direct=1
+ioengine=libaio
+
+iodepth=16
+numjobs=16
+
+#filename=/dev/....
+
+norandommap
+#randrepeat=0
+group_reporting
+lat_percentiles=1
+
+##for around 85% achieved hit rate##
+offset=0
+#handy
+size=1t
+io_size=7g
+#handy
+random_distribution=zoned:97/1:3/99
+
