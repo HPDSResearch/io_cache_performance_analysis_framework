@@ -1,0 +1,19 @@
+[seqwrite]
+
+readwrite=write
+blocksize=4m
+direct=1
+ioengine=libaio
+
+numjobs=1
+iodepth=16
+
+##for 100% hit, create cache and seq write to it##
+#filename=/dev/ram1
+
+refill_buffers
+group_reporting=1
+
+##for a 10GB cache##
+offset=0
+size=9g
