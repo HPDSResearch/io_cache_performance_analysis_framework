@@ -1,0 +1,17 @@
+[read]
+
+readwrite=read
+blocksize=32k
+direct=1
+ioengine=libaio
+
+iodepth=16
+numjobs=1
+
+#filename=/dev/mapper/dm-cache
+
+offset=0
+size=10g
+io_size=1g
+
+log_avg_msec=1000
