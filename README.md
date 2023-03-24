@@ -33,9 +33,9 @@ The summarized explanation of each category and how to run them is found below.
 
 This is the group of tests that examine the internal parallelism of I/O caches. These tests create an environment with 100% read hits, in which all requests are served from the cache device and not the backend.
 
-Step 1: Set the backend device path in "scripts/Create_scripts.sh". For OpenCAS, device-by-id and for EnhanceIO, the device name (e.g., sdX) is required. 
+* Step 1: Set the backend device path in "scripts/Create_scripts.sh". For OpenCAS, device-by-id and for EnhanceIO, the device name (e.g., sdX) is required. 
 
-Step 2: Run the top_level_script.sh. Select the desired cache module, and provide "ram1" as front-end ( or cache device), and "sdX" as the backend device. 
+* Step 2: Run the *top_level_script.sh.* Select the desired cache module, and provide "ram1" as front-end ( or cache device), and "sdX" as the backend device. 
 
 * Note that to run raw RAMDisk scalability tests, no code configuration is required. The user should only run "main_script.sh".
 
