@@ -39,8 +39,29 @@ This is the group of tests that examine the internal parallelism of I/O caches. 
 
 * Note that to run raw RAMDisk scalability tests, no code configuration is required. The user should only run "main_script.sh".
 
+## Controlled Uniform
 
+This group is for examining the cache miss handling mechanism. These tests create access patterns that result in the desired read cache hit-rates. The core idea of how to create specific hit-rates is using zoned distribution parameter of FIO. By modifying the flushing mechanism of the cache, flushing efficiency is also measured through these tests.
 
+The steps to run these scripts are exactly same as the scalability tests.
+
+## Real Traces
+
+This group of tests measure the overall cache behavior under real applications. These scripts are generally usable with any real trace that is formatted in FIO-replayable format, but we specifically run Microsoft Exchange, Fujitsu VDI, and Oltpbench TPCC.
+
+* Step 1: Download the real trace files and after decompressing, place them in /root/ path without changing the name. If the user wants to place the real trace input in another path, *read_iolog* value in fio job files must be set to the new path.
+
+* Step 2: Set the backend device path in *scripts/Create_scripts.sh* (for OpenCAS and EnhanceIO only).
+
+* Step 3: Select the proper cache size for each real trace. Set the RAMDisk size in *scripts/ramdisk_create.sh*
+
+* Step 4: Copy the FIO job file of the desired trace from "jobfileRepo" to "jobfiles" directory. (as an example, we have placed Oltpbench TPCC job file in the "jobfiles" directory). Our framework runs the trace whose job file is in "jobfiles" directory.
+
+* Step 5: To run Microsoft Exchange traces, uncomment five highlighted lines in *scripts/Create_scripts.sh* to create the required volume group and LUNs (for EnhanceIO only). 
+
+* Step 6: To run Microsoft Exchange traces, refer to the file *Template/DM-testing-script.sh* for DM-Cache, and *main_script.sh* with *Template/Enhanceio-testing-script.sh* for EnhanceIO to enable proper fio replay command. (for OpenCAS, no specific modification is required to handle this trace)
+
+* Step 7: Run the *main_script.sh* with first argument as /dev/ram1 and second argument as /dev/sdX.
 
 
 # LICENSING and USAGE
